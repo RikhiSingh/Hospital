@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- fav icons -->
     <link rel="shortcut icon" href="images/Capture.PNG">
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- import poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
 </head>
 <body>
     
@@ -30,9 +31,9 @@
             
             <!-- menu -->
             <ul class="menu">
-                <li><a href="#"><i class="uil uil-stethoscope menu_icon"></i> Find A Doctor</a></li>
-                <li><a href="#"><i class="uil uil-ambulance menu_icon"></i> Services</a></li>
-                <li><a href="#"><i class="uil uil-comment-alt-medical menu_icon"></i> Testimonials</a></li>
+                <li><a href="#"><i class="fa-solid fa-stethoscope menu_icon"></i> Find A Doctor</a></li>
+                <li><a href="#"><i class="fa-solid fa-truck-medical menu_icon"></i> Services</a></li>          
+                <li><a href="#"><i class="fa-solid fa-comment-alt menu_icon"></i> Testimonials</a></li>
             </ul>
             <!-- appoint-button -->
             <a href="#" class="nav-appoin-btn">Appointment</a>
@@ -47,11 +48,11 @@
                 <!-- buttons -->
                 <div class="main-text-btns">
                     <a href="#">
-                        <i class="uil uil-search main-text-btns1"></i>
+                        <i class="fa-sharp fa-solid fa-magnifying-glass main-text-btns1"></i>
                         Find Doctor
                     </a>
                     <a href="#">
-                        <i class="uil uil-check main-text-btns2"></i>
+                        <i class="fa-solid fa-check main-text-btns2"></i>
                         Book Appointment
                     </a>
                 </div>                
@@ -71,16 +72,16 @@
         <div class="appointment-search">
             <!-- search-box -->
             <div class="appoin-search-box">
-                <i class="uil uil-search "></i>
+                <i class="fa-sharp fa-solid fa-magnifying-glass "></i>
                 <input type="text" placeholder="Search Doctor Here">
             </div>
             <div class="appoin-search-box">
-                <i class="uil uil-map-marker "></i>
+                <i class="fa-solid fa-location-dot"></i>
                 <input type="text" placeholder="Set your location">
             </div>
             <!-- btn -->
             <button>
-                <i class="uil uil-search "></i>
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
             </button>
         </div>
     </div>
@@ -92,7 +93,7 @@
         <div class="w-info-box w-info-box1">
             <!-- icon -->
             <div class="w-info-icon">
-                <i class="uil uil-medical-square"></i>
+                <i class="fa-solid fa-notes-medical"></i>
             </div>
             <!-- text -->
             <div class="w-info-text">
@@ -104,7 +105,7 @@
         <div class="w-info-box w-info-box2">
             <!-- icon -->
             <div class="w-info-icon">
-                <i class="uil uil-hourglass"></i>
+                <i class="fa-solid fa-hourglass"></i>
             </div>
             <!-- text -->
             <div class="w-info-text">
@@ -116,7 +117,7 @@
         <div class="w-info-box w-info-box3">
             <!-- icon -->
             <div class="w-info-icon">
-                <i class="uil uil-file-medical-alt"></i>
+                <i class="fa-solid fa-file-waveform"></i>
             </div>
             <!-- text -->
             <div class="w-info-text">
@@ -126,6 +127,38 @@
         </div>
     </section>
 
+    <!-- our servicse -->
+    <section id="our-services">
+        <!-- heading -->
+        <div class="services-heading">
+            <!-- text -->
+            <div class="services-heading-text">
+                <strong>Our Services</strong>
+                <h2>High Quality Services For You</h2>
+            </div>
+        </div>
+
+        <!-- box container -->
+        <div class="services-box-conatiner">
+            <!-- box -->
+            <div class="services-box s-box1">
+                <!-- icon -->
+                <i class="fa-solid fa-tooth"></i>
+                <!-- title -->
+                <strong>Dental Care</strong>
+                <!-- details -->
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                 <!-- btns -->
+                 <a href="#">Read More</a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
     <!-- our story -->
     <section id="our-story">
         <!-- img -->
@@ -133,7 +166,7 @@
             <img src="images/our-story.jpg" alt="hospital image">
             <!-- video play btn -->
             <a href="#" class="story-play-btn">
-                <i class="uil uil-play"></i>
+                <i class="fa-solid fa-play"></i>
                 Play Video
             </a>
         </div>
@@ -170,7 +203,10 @@
 
 
 
+    
 
 
+<!-- font awesome js -->
+<script src="https://kit.fontawesome.com/92f18c26b6.js" crossorigin="anonymous"></script>
 </body>
 <!-- </html> -->
