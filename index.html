@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 <body>
     
@@ -135,25 +138,161 @@
                 <strong>Our Services</strong>
                 <h2>High Quality Services For You</h2>
             </div>
+            <!-- btns -->
+            <div class="services-slide-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
         </div>
 
         <!-- box container -->
         <div class="services-box-conatiner">
-            <!-- box -->
-            <div class="services-box s-box1">
-                <!-- icon -->
-                <i class="fa-solid fa-tooth"></i>
-                <!-- title -->
-                <strong>Dental Care</strong>
-                <!-- details -->
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
-                 <!-- btns -->
-                 <a href="#">Read More</a>
-            </div>
-        </div>
+
+
+            <div class="swiper mySwiperservices">
+            <div class="swiper-wrapper">
+
+                <!--slide 1-->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="services-box s-box1">
+                        <!-- icon -->
+                        <i class="fa-solid fa-eye"></i>
+                        <!-- title -->
+                        <strong>Dental Care</strong>
+                        <!-- details -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <!-- btns -->
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div><!--slide end-->
+
+                <!--slide 2-->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="services-box s-box2">
+                        <!-- icon -->
+                        <i class="fa-solid fa-lungs"></i>
+                        <!-- title -->
+                        <strong>Dental Care</strong>
+                        <!-- details -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <!-- btns -->
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div><!--slide end-->
+
+                <!--slide 3-->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="services-box s-box3">
+                        <!-- icon -->
+                        <i class="fa-solid fa-child-reaching"></i>
+                        <!-- title -->
+                        <strong>Dental Care</strong>
+                        <!-- details -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <!-- btns -->
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div><!--slide end-->
+
+                <!--slide 4-->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="services-box s-box4">
+                        <!-- icon -->
+                        <i class="fa-solid fa-tooth"></i>
+                        <!-- title -->
+                        <strong>Dental Care</strong>
+                        <!-- details -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                        <!-- btns -->
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div><!--slide end-->
+
+            </div> <!--wrapper-end-->
+            </div> <!--swiper-end-->
+
+        </div> <!--container end-->
+
+        <!-- btn -->
+        <span class="service-help-btn">Contact us for need any help and services. <a href="#">Let's Get Started</a></span>
+
+    </section>  <!--services end -------------------------------->
+
+    <!-- why choose us? -->
+    <section id="why-choose-us">
+        
+        <!-- left -->
+        <div class="why-choose-us__left">
+            <h3>WHy Choose Us?</h3>
+            <!-- container -->
+            <div class="why-choose-box-container">
+
+                <!-- box -->
+                <div class="why-choose-box">
+                    <!-- icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+
+                <!-- box -->
+                <div class="why-choose-box">
+                    <!-- icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+
+                <!-- box -->
+                <div class="why-choose-box">
+                    <!-- icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+
+                <!-- box -->
+                <div class="why-choose-box">
+                    <!-- icon -->
+                    <i class="fa-solid fa-check"></i>
+                    <!-- text -->
+                    <div class="why-choose-box-text">
+                        <strong>Advance Care</strong>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+            </div>  <!--container end-->
+
+            <!-- btn================================== -->
+            <a href="#" class="why-choose-us-btn">Make Appointment</a>
+
+        </div>  <!--left end-->
+        
+        <!-- right -->
+        <div class="why-choose-us__right"></div>
 
     </section>
-
 
 
 
@@ -205,7 +344,43 @@
     
 
 
-<!-- font awesome js backup-->
-<script src="https://kit.fontawesome.com/92f18c26b6.js" crossorigin="anonymous"></script>
+    <!-- font awesome js backup-->
+    <script src="https://kit.fontawesome.com/92f18c26b6.js" crossorigin="anonymous"></script>
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    // services slider
+    var swiper = new Swiper(".mySwiperservices", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+
 </body>
 <!-- </html> -->
+</html>
