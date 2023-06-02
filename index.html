@@ -290,13 +290,153 @@
         </div>  <!--left end-->
         
         <!-- right -->
-        <div class="why-choose-us__right"></div>
+        <div class="why-choose-us__right">
+            <h3>
+                Emergency? <br>
+                Contact Us
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <!-- container------------ -->
 
-    </section>
+            <div class="w-right-contact-container">
+                <!-- box -->
+                <div class="w-right-contact-box">
+                    <!-- icon -->
+                    <i class="fa-solid fa-phone"></i>
+                    <!-- text -->
+                    <div class="w-right-contact-box-text">
+                        <span>Call Us Now</span>
+                        <strong>+123-456-789-7895</strong>
+                    </div>
+                </div>
+                <!-- box -->
+                <div class="w-right-contact-box">
+                    <!-- icon -->
+                    <i class="fa-solid fa-envelope"></i>
+                    <!-- text -->
+                    <div class="w-right-contact-box-text">
+                        <span>Mail us</span>
+                        <strong> info@heart.com </strong>
+                    </div>
+                </div>
+
+            </div>  <!--container end-------->
+
+        </div> <!--right ends-->
+
+    </section> <!--section ends---------------------------->
 
 
+    <!-- TEAM -->
+    <section id="team">
+
+        <!-- heading -->
+        <div class="team-heading">
+            <h3>Meet our specialists</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- container -->
+        <div class="team-box-container">
 
 
+            <!-- swiper -->
+            <div class="swiper mySwiperteam">
+            <div class="swiper-wrapper">
+
+                <!-- slide 1--------------->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="team-box">
+                        <!-- img -->
+                        <div class="team-img">
+                            <img src="images/main_img_backg.png" alt="">
+                        </div>
+                        <!-- text -->
+                        <div class="team-text">
+                            <strong>Dr. Alex Pablo</strong>
+                            <span>Eye Specialist</span>
+                        </div>
+                    </div>
+                </div> <!--slide end-->
+
+                <!-- slide 2--------------->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="team-box">
+                        <!-- img -->
+                        <div class="team-img">
+                            <img src="images/main_img_backg.png" alt="">
+                        </div>
+                        <!-- text -->
+                        <div class="team-text">
+                            <strong>Dr. Alex Pablo</strong>
+                            <span>Eye Specialist</span>
+                        </div>
+                    </div>
+                </div> <!--slide end-->
+
+                <!-- slide 3--------------->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="team-box">
+                        <!-- img -->
+                        <div class="team-img">
+                            <img src="images/main_img_backg.png" alt="">
+                        </div>
+                        <!-- text -->
+                        <div class="team-text">
+                            <strong>Dr. Alex Pablo</strong>
+                            <span>Eye Specialist</span>
+                        </div>
+                    </div>
+                </div> <!--slide end-->
+
+                <!-- slide 4--------------->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="team-box">
+                        <!-- img -->
+                        <div class="team-img">
+                            <img src="images/main_img_backg.png" alt="">
+                        </div>
+                        <!-- text -->
+                        <div class="team-text">
+                            <strong>Dr. Alex Pablo</strong>
+                            <span>Eye Specialist</span>
+                        </div>
+                    </div>
+                </div> <!--slide end-->
+
+                <!-- slide 5--------------->
+                <div class="swiper-slide">
+                    <!-- box -->
+                    <div class="team-box">
+                        <!-- img -->
+                        <div class="team-img">
+                            <img src="images/main_img_backg.png" alt="">
+                        </div>
+                        <!-- text -->
+                        <div class="team-text">
+                            <strong>Dr. Alex Pablo</strong>
+                            <span>Eye Specialist</span>
+                        </div>
+                    </div>
+                </div> <!--slide end-->
+
+            </div> <!--wrapper-ends---->
+            <div class="swiper-pagination"></div> 
+            </div> <!--swiper ends-->
+          
+
+
+            
+        </div> <!--container ends-->
+
+    </section> <!----ends- team----------->
+
+
+  
     <!-- our story -->
     <section id="our-story">
         <!-- img -->
@@ -340,6 +480,30 @@
     </section>
 
 
+      <!-- testimonials -->
+    <section id="testimonials">
+
+        <!-- heading -->
+        <div class="testimonials-heading">
+            <h3>Our Patients FeedBack About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            
+        </div>
+
+        <!-- testimonials content------ -->
+        <div class="testimonials-content">
+            <!-- img -->
+            <div class="testimonials-img">
+                <img src="images/Capture.PNG" alt="">
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
 
     
 
@@ -379,6 +543,33 @@
         },
       },
     });
+
+
+    // team========================
+
+    var swiper = new Swiper(".mySwiperteam", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+            },
+        },
+    });
+
   </script>
 
 </body>
